@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.kittyButton {
+    background-color: aquamarine;
+}
+
+.pictureFrame {
+    height: 250px;
+    width: 250px;
+}
+
+.pictureFrame > img {
+    height: 100%;
+}

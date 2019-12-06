@@ -7,17 +7,32 @@ html, body {
     width: 100%;
 }
 
+.photo-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* width: 50%; */
+    max-width: 50%;
+    min-width: 0;
+    /* height: 30%; */
+    /* flex-basis: 33%; */
+    /* height: 33%; */
+}
 
+.photo-container img{
+    height: 100%;
+    /* flex-shrink: 1; */
+}
 
 .kittyButton {
     background-color: aquamarine;
 }
 
 .pictureFrame {
-    height: 250px;
-    width: 250px;
+    /* height: 250px;
+    width: 250px; */
 }
 
 .pictureFrame > img {
     height: 100%;
+    width: 33%;
 }
